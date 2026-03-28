@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>AstroFlow | Creative Workflow Automation</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts Resource -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar glass-effect">
+            <div class="container nav-container">
+                <a href="#home" class="logo">
+                    <span class="logo-accent">Astro</span>Flow
+                </a>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#signup" class="btn btn-primary nav-btn">Get Started</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="home">
+        <div class="container hero-grid">
+            <div class="hero-content reveal">
+                <h1 class="hero-title text-gradient">
+                    Automate Your Creative <span class="accent-text">Chaos.</span>
+                </h1>
+                <p class="hero-subtitle">AstroFlow seamlessly connects your design tools, project management, and
+                    creative assets into one unified, intelligent workflow.</p>
+                <div class="hero-cta">
+                    <a href="#pricing" class="btn btn-primary scale-btn">Start Free Trial</a>
+                    <a href="#features" class="btn btn-secondary glass-btn">Learn More</a>
+                </div>
+            </div>
+            <div class="hero-media reveal animate-slide-up">
+                <img src="images/hero-image.png" alt="Hero Image">
+            </div>
+        </div>
+    </section>
+
+    <!-- Feature Section -->
+    <section id="features" class="feature-section">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="section-title">Workflow Reimagined</h2>
+                <p class="section-subtitle">Powerful features designed to let creators create, not coordinate.</p>
+            </div>
+            <div class="feature-grid">
+                <!-- Feature 1 -->
+                <div class="feature-card reveal">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Intelligent Automation</h3>
+                    <p>Trigger actions across Figma, Adobe CC, and Slack with custom logic-based triggers.</p>
+                </div>
+                <!-- Feature 2 -->
+                <div class="feature-card reveal">
+                    <div class="feature-icon">☁️</div>
+                    <h3>Cloud Asset Sync</h3>
+                    <p>Your assets are everywhere you are. Instant sync with version control for creative files.</p>
+                </div>
+                <!-- Feature 3 -->
+                <div class="feature-card reveal">
+                    <div class="feature-icon">🤝</div>
+                    <h3>Real-time Collab</h3>
+                    <p>Annotate designs and tag teammates directly within the AstroFlow environment.</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section id="testimonials" class="testimonial-section">
+        <div class="container reveal">
+            <h2 class="section-title text-center">Loved by Creators</h2>
+            <div class="testimonial-container">
+                <div class="testimonial-slider" id="testimonialSlider">
+                    <div class="testimonial-slide active">
+                        <p class="testimonial-text">"AstroFlow has literally halved the time I spend on file management.
+                            I can finally focus on actual design work again."</p>
+                        <div class="testimonial-author">
+                            <span class="author-name">Alex Rivera</span>
+                            <span class="author-role">Senior UI Designer @ PixelPerfect</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-slide">
+                        <p class="testimonial-text">"The automation logic is so intuitive. Even our non-technical
+                            project managers are setting up complex workflows."</p>
+                        <div class="testimonial-author">
+                            <span class="author-name">Sarah Chen</span>
+                            <span class="author-role">Creative Director @ Nexa Agency</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-dots" id="sliderDots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing section -->
+    <section id="pricing" class="pricing section">
+        <div class="container reveal">
+            <h2 class="section-title text-center">Simple Pricing</h2>
+            <div class="pricing-grid">
+                <!-- Free Plan -->
+                <div class="pricing-card">
+                    <h3>Starter</h3>
+                    <div class="price">$0<span>/mon</span></div>
+                    <ul>
+                        <li>3 Active Automations</li>
+                        <li>1GB Cloud Storage</li>
+                        <li>Basic Community Support</li>
+                    </ul>
+                    <a href="#" class="btn btn-secondary glass-btn">Get Started</a>
+                </div>
+
+                <!-- Pro Plan -->
+                <div class="pricing-card highlighted">
+                    <h3>Professional</h3>
+                    <div class="price">$29<span>/mon</span></div>
+                    <ul>
+                        <li>Unlimited Automations</li>
+                        <li>50GB Cloud Storage</li>
+                        <li>Priority Chat Support</li>
+                        <li>Team Collaboration Tools</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary">Go Pro</a>
+                </div>
+
+                <!-- Enterprise Plan -->
+                <div class="pricing-card">
+                    <h3>Enterprise</h3>
+                    <div class="price">$99<span>/mon</span></div>
+                    <ul>
+                        <li>Unlimited Everything</li>
+                        <li>Advanced Security</li>
+                        <li>Dedicated Account Manager</li>
+                        <li>Custom API Access</li>
+                    </ul>
+                    <a href="#" class="btn btn-secondary glass-btn">Contact Sales</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Signup Footer Section -->
+    <section id="signup" class="cta-banner">
+        <div class="container reveal text-center">
+            <h2 class="section-title">Ready to reach AstroFlow state?</h2>
+            <p>Join over 5,000+ creators optimizing their days.</p>
+            <form class="signup-form">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit" class="btn btn-primary">Start Building Now</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom">
+                &copy; 2026 AstroFlow. Built for the modern creative.
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
